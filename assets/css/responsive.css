@@ -1,0 +1,2635 @@
+@charset "utf-8";
+@media only screen and (max-width:1300px) {
+    .search-form {
+        width: 90%;
+        margin-left: 5%
+    }
+    .nav-a {
+        padding-right: 6px;
+        padding-left: 6px
+    }
+    .smart-search-fields {
+        width: 80%
+    }
+    .content-wrap2 {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%
+    }
+}
+@media only screen and (max-width:1240px) {
+    .read-job-section-in {
+        width: 100%
+    }
+    .read-left-section2 {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .left-ad {
+        display: none
+    }
+    #b-in-img {
+        max-width: 850px
+    }
+    nav ul {
+        margin-left: 10px
+    }
+}
+@media only screen and (max-width:1200px) {
+    .switch-country {
+        margin-left: .5%
+    }
+    .nav-2 li {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+    .subscribe-input {
+        width: 68%
+    }
+    .search-input-wrap {
+        width: 76.5%
+    }
+}
+@media only screen and (max-width:1150px) {
+    #b-in-img {
+        max-width: 700px
+    }
+    .ss-f-but {
+        margin-right: 0
+    }
+    .company-name {
+        width: 75%
+    }
+    #menue-but-box {
+        display: block;
+        left: 20px;
+        right: auto;
+        margin-top: 12px;
+        top: 0
+    }
+    #employer-postjob-nav {
+        display: block
+    }
+    #logout-nav, #login-nav, #signup-nav {
+        display: block
+    }
+    nav {
+        position: relative;
+        display: inline-block;
+        display: block
+    }
+    nav ul {
+        transition: all .3s .1s ease-out;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50px;
+        box-shadow: 0 2px 10px #666;
+        padding-left: 0;
+        z-index: 8000
+    }
+    .nav-li:hover {
+        background-color: #fff
+    }
+    nav #active-page .nav-a {
+        border-left-color: #ffbf00
+    }
+    .nav-li, .nav-li ul li {
+        width: 100%;
+        background-color: #fff;
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+        float: left;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        background-image: none
+    }
+    #jobs-nav, #career-advice-nav {
+        background-image: none
+    }
+    #resources-nav {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #e5e5e5
+    }
+    .nav-a:hover, .nav-li ul li a:hover {
+        background-color: #e9e9e9;
+        border-left-color: #f63
+    }
+    .nav-li:hover ul {
+        height: auto
+    }
+    .nav-a, .nav-li ul li a {
+        float: left;
+        height: 80px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5%;
+        padding-right: 4%;
+        line-height: 20px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #e5e5e5;
+        width: 89.8%;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: solid;
+        color: #949494;
+        border-left-width: 3px;
+        border-left-color: #fff;
+        text-transform: uppercase;
+        font-size: 12px
+    }
+    .nav-li ul {
+        display: block;
+        height: auto;
+        margin-top: 0;
+        position: inherit;
+        box-shadow: none;
+        background: 0 0;
+        width: 100%;
+        float: left;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+
+    .signup-cat {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%
+    }
+    .switch-country {
+        float: right;
+        margin-right: 0
+    }
+}
+@media only screen and (max-width:1100px) {
+    .right-ad {
+        width: 100%
+    }
+    .read-left-section {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0
+    }
+    #subscribe-but-2 {
+        width: 19%
+    }
+    .subscribe-input {
+        width: 65%
+    }
+    #subscribe-but {
+        width: 27%
+    }
+    .category-box li {
+        width: 100%
+    }
+    .search-form {
+        width: 100%;
+        margin-left: 0
+    }
+    .mini-window {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+    .each-blog {
+        width: 28.5%
+    }
+    @media only screen and (max-width:1050px) {
+        #training-cover-img {
+            width: 100%
+        }
+        #b-in-img {
+            max-width: 600px
+        }
+        .ss-f-but {
+            padding-left: 5px
+        }
+        .course-list li {
+            width: 45%
+        }
+        .alert-box {
+            margin-right: -50px
+        }
+    }
+    @media only screen and (max-width:1000px) {
+        #cat-tab-field {
+            background-position: 10px -1292px
+        }
+        #cat-tab-industry {
+            background-position: 10px -1322px
+        }
+        #cat-tab-state {
+            background-position: 10px -1357px
+        }
+        #cat-tab-education {
+            background-position: 10px -1388px
+        }
+        #cat-tab-company {
+            background-position: 10px -1420px
+        }
+        #subscribe-but-2 {
+            width: 24%
+        }
+        .subscribe-input-2 {
+            width: 59%
+        }
+        .search-sec-2 {
+            width: 40%;
+            padding-left: 25%;
+            padding-right: 25%
+        }
+        #menue-but-box {
+            left: 20px
+        }
+        .subscribe-input {
+            width: 64%
+        }
+        #career-advice-nav {
+            display: none
+        }
+
+        #subscribe-but-3, #subscribe-but-4 {
+            width: 20.5%
+        }
+        .smart-search-fields {
+            width: 100%
+        }
+        .tab-box {
+            width: 18%
+        }
+        .cat-list-hold {
+            width: 80%
+        }
+        .category-list li {
+            margin-left: 1%;
+            margin-right: 1%;
+            width: 29%
+        }
+        .cat-list-inner {
+            width: 96%;
+            padding-left: 2%;
+            padding-right: 2%
+        }
+        .signup-header ul {
+            width: 50%;
+            margin-left: 25%
+        }
+        #switch-view-sec {
+            width: 100%
+        }
+        .switch-but {
+            width: 60%;
+            float: left;
+            margin-top: 20px
+        }
+        .search-input-wrap {
+            width: 75.8%
+        }
+        .testimonail-form span {
+            float: left;
+            width: 100%;
+            display: block;
+            margin-bottom: 15px
+        }
+        .testimonial-mid {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
+        .rc-priz {
+            width: 55%;
+            text-align: left
+        }
+        .job-app-right {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .job-app-left {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom: 30px
+        }
+        .goback {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: #ffe8c6;
+            background-color: #f7f7f7
+        }
+    }
+    @media only screen and (max-width:900px) {
+        #subscribe-wrapx {
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            border: none
+        }
+        .subscribe-signup-form {
+            width: 96%;
+            margin-left: 2%;
+            margin-right: 2%
+        }
+        #b-in-img {
+            max-width: 500px
+        }
+        .signup-header-2 {
+            display: block
+        }
+        .signup-header {
+            display: none;
+            overflow: hidden;
+            height: 0;
+            width: 0
+        }
+        .signup-sec {
+            padding-top: 0;
+            background-color: #fff
+        }
+        .signup-right {
+            margin-top: -130px;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: none;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #dfdfdf;
+            border-right-color: #dfdfdf;
+            border-bottom-color: #dfdfdf;
+            border-left-color: #dfdfdf;
+            margin-bottom: 40px
+        }
+        #signup-sec-I, #signup-sec-J, #signup-sec-E {
+            background: 0 0;
+            background-color: inherit
+        }
+        #why-signup ul li {
+            font-size: 14px;
+            margin-bottom: 5px
+        }
+        #why-signup h1 {
+            font-size: 20px
+        }
+        #why-signup h2 {
+            font-size: 16px
+        }
+        #not-cat-signup {
+            float: left;
+            width: 47%;
+            margin-right: 1%;
+            margin-left: 1%;
+            border: 1px solid #f60;
+            line-height: 30px;
+            text-align: center;
+            display: block;
+            height: 30px;
+            margin-top: 10px
+        }
+        .search-but {
+            width: 21%;
+            font-size: 16px;
+            background-image: none
+        }
+        #d-site-logo {
+            width: 90px
+        }
+        #d-site-logo img {
+            width: 100%;
+            height: auto
+        }
+        #signup-form, .signup-or {
+            background-color: #dfdfdf
+        }
+        .mjm-desc {
+            width: 100%;
+            margin-bottom: 30px
+        }
+        .footer-list {
+            width: 33.33%
+        }
+        .footer-list ul {
+            padding-left: 0;
+            margin-left: 0
+        }
+        .subscribe-form {
+            width: 100%
+        }
+        #subscription {
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        #subscribe-sub-form section {
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 84%;
+            margin-left: 3%;
+            margin-right: 3%
+        }
+        .subscribe-form {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .subscribe-input {
+            width: 67%
+        }
+        .course-img {
+            width: 100%
+        }
+        .course-info {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        #sbu-job-list li {
+            width: 100%
+        }
+        #sort-job-home {
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px
+        }
+        #mag-b-6, #mag-b-3 {
+            width: 100%
+        }
+        #wrap-404 {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0
+        }
+        .login-right {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .login-left {
+            width: 80%;
+            padding-left: 10%;
+            padding-right: 10%
+        }
+        .signup-right {
+            width: 100%
+        }
+        #signup-msg {
+            width: 100%
+        }
+        #why-signup ul {
+            width: 85%
+        }
+        .signup-footer {
+            color: #000;
+            background-color: #fc0
+        }
+        #settings {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .search-input {
+            padding-left: 20%;
+            padding-right: 5%;
+            width: 75%
+        }
+        .testi-star-icon {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px
+        }
+        .testi-info {
+            width: 87%;
+            padding-left: 13%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+        .testi-star {
+            width: 100%;
+            margin-top: 15px
+        }
+        .testi-info-in {
+            float: left;
+            margin-left: 0%;
+            width: 100%;
+            text-align: center
+        }
+        .switch-testimonial, #test-num {
+            width: 100%;
+            text-align: center
+        }
+        .contact-banner p {
+            color: #fff
+        }
+        #contact-info-box {
+            width: 100%;
+            margin-top: 0
+        }
+        #contact-form-box {
+            width: 100%;
+            margin-top: 60px
+        }
+        .emp-faq-ul li {
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%
+        }
+        .faq-title {
+            margin-left: 0
+        }
+        #contact-hold {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0
+        }
+        .course-detail-left {
+            width: 100%
+        }
+        .course-detail-right {
+            width: 100%;
+            float: left;
+            margin-top: 50px
+        }
+        #training-marketing {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto
+        }
+        #train-market {
+            text-align: center
+        }
+        .training-box {
+            width: 100%
+        }
+        .training-cat {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-top: 40px
+        }
+        .square-box {
+            margin-left: 0;
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+    }
+    @media only screen and (max-width:800px) {
+        .featured-jobs li {
+            width: 85%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-left: 5%
+        }
+        #job-set-tips {
+            width: 92%
+        }
+        .choose-ur-job {
+            float: left;
+            text-align: left
+        }
+        .cv-status-box2 {
+            top: 28px;
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            height: 20px;
+            right: 10px;
+            margin-right: -2%
+        }
+        .exit-popup-in {
+            width: 96%
+        }
+        .exit-popup-content {
+            margin-top: 40px
+        }
+        .contact-faqs-a {
+            width: 100%
+        }
+        .book-faq {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .job-info ul li h2 a, .job-info ul li h3 a {
+            font-size: 16px
+        }
+        .job-desc {
+            font-size: 14px;
+            line-height: 20px
+        }
+        .job-description {
+            font-size: 15px;
+            line-height: 26px
+        }
+        .jkey-title {
+            font-size: 15px
+        }
+        #book-chap-txt {
+            width: 100%
+        }
+        #book-chap-pix {
+            display: none
+        }
+        .book-testimo-box {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0
+        }
+        #book-top-email {
+            display: none
+        }
+        #book-top-logo {
+            width: 100%;
+            text-align: center
+        }
+        .book-testimo {
+            width: 70%;
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-left: 5%;
+            margin-right: 0;
+            margin-bottom: 20px
+        }
+        .book-top-wrap {
+            height: auto;
+            padding-bottom: 10px;
+            margin-bottom: 0
+        }
+        .book-banner-in {
+            height: auto;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            background-color: #333
+        }
+        .book-chapter-hold {
+            background-image: none
+        }
+        #book-chapter-sec {
+            background-color: #e1e1e1;
+            padding-top: 20px
+        }
+        #line22 {
+            margin-left: 45%;
+            width: 10%;
+            float: left
+        }
+        .author-info {
+            width: 100%;
+            float: left;
+            margin-bottom: 20px
+        }
+        .author-pix {
+            margin-left: auto;
+            margin-right: auto;
+            float: none
+        }
+        .book-banner {
+            height: auto;
+            position: inherit;
+            float: left;
+            z-index: inherit;
+            padding-bottom: 0;
+            margin-top: 12px
+        }
+        .book-sell-box {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .book-chapt li {
+            margin-bottom: 5px;
+            height: auto;
+            min-height: inherit;
+            padding-bottom: 10px;
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .book-chapt {
+            width: 100%;
+            margin-left: 0;
+            padding-left: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+            padding-left: 0;
+            margin-right: 0;
+            padding-right: 0
+        }
+        .book-buy-box, #book-buy-box {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 20px
+        }
+        .each-book-faq {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .book-chapters {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0
+        }
+        .book-author {
+            width: 100%;
+            margin-left: 0%;
+            padding-left: 0%;
+            padding-right: 0%;
+            margin-top: 0;
+            padding-top: 0;
+            text-align: center;
+            background-color: #fff;
+            border-top-style: none
+        }
+        .book-banner {
+            width: 100%;
+            margin-left: 0
+        }
+        .book-cover {
+            width: 100%
+        }
+        .book-desc {
+            width: 100%;
+            margin-top: 0;
+            text-align: center
+        }
+        #how-to-buy-book {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .buy-book {
+            width: 100%;
+            margin-bottom: 20px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0
+        }
+        #faq-sec {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .faq-nav-a {
+            width: 40%;
+            padding-left: 4%;
+            padding-right: 4%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 10px
+        }
+        .faq-h3 {
+            width: 85%;
+            padding-left: 9%;
+            padding-right: 6%
+        }
+        .list-title {
+            margin-bottom: 5px;
+            width: 100%;
+            max-width: none
+        }
+        .list-num {
+            margin-top: 10px;
+            height: auto;
+            width: auto;
+            float: left;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .list-delete {
+            width: 20px
+        }
+        .list-cvrename {
+            width: auto;
+            padding-left: 13px;
+            padding-right: 13px
+        }
+        .cv-size {
+            font-size: 12px;
+            margin-top: 9px
+        }
+        .fbp-box li {
+            width: 45.5%;
+            margin-right: 2%;
+            margin-left: 2%;
+            margin-bottom: 30px
+        }
+        .blog-fjobs {
+            width: 100%
+        }
+        .bpfj-box {
+            width: 81.5%;
+            margin-left: 4%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .blog-qlinks {
+            width: 100%;
+            margin-right: 0
+        }
+        .blog-qlinks ul {
+            width: 81.5%;
+            margin-left: 4%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        #blog-wrap-cat {
+            margin-top: -130px
+        }
+        .search-form-blog {
+            width: 99%;
+            margin-top: 10px
+        }
+        #signup-bg-I {
+            background-image: none
+        }
+        .smart-search-fields {
+            width: 75%
+        }
+        #follow-company-but {
+            float: right
+        }
+        #follow-this-company {
+            float: left
+        }
+        .follow-box {
+            margin-top: 20px;
+            width: 100%;
+            margin-left: 0%;
+            margin-bottom: 20px
+        }
+        #company-details-sec {
+            padding-top: 10px;
+            background-color: #fff
+        }
+        #company-banna {
+            height: auto;
+            padding-top: 30px
+        }
+        #comp-job-vacan {
+            text-align: left
+        }
+        #wrap-comp-jobs {
+            padding-top: 0;
+            background-color: transparent;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%
+        }
+        #company-name-box {
+            width: 100%;
+            margin-top: 10px
+        }
+        .company-details-right {
+            width: 100%
+        }
+        .company-name {
+            margin-top: 15px;
+            margin-bottom: 25px;
+            text-align: left;
+            width: 50%;
+            float: left;
+            margin-left: 1%;
+            margin-top: 0
+        }
+        #company-page-search {
+            width: 101%
+        }
+        .company-logo {
+            margin-top: 0;
+            float: left;
+            box-shadow: none;
+            height: auto;
+            padding-bottom: 10px;
+            padding-top: 10px
+        }
+        .company-jobs {
+            width: 100%;
+            padding-right: 0;
+            border-right-style: none
+        }
+        #company-right-box {
+            float: left;
+            width: 100%
+        }
+        .company-h2 {
+            float: left
+        }
+        .read-sub-form-top {
+            width: 60%
+        }
+        .subscribe-input-3 {
+            width: 63%
+        }
+        #subscribe-but-2 {
+            width: 19%
+        }
+        .subscribe-input-2 {
+            width: 59%
+        }
+        .subscribe-input {
+            width: 65%
+        }
+        .left-section {
+            width: 100%
+        }
+        .right-section {
+            width: 100%;
+            margin-top: 30px
+        }
+        .category-box li {
+            width: 46%
+        }
+        .course-img {
+            width: 30%
+        }
+        .course-info {
+            width: 65%
+        }
+        .search-but {
+            width: 20%;
+            font-size: 16px;
+            background-image: none
+        }
+        .search-input {
+            font-size: 16px
+        }
+        .search-input-box {
+            width: 50%
+        }
+        .subscribe-input-2 {
+            width: 64%
+        }
+        .simillar-jobs li, .latest-jobs-li2 {
+            width: 100%
+        }
+        .apply-but {
+            margin-right: 5%
+        }
+        .cat-list-hold {
+            width: 100%
+        }
+        .tab-box {
+            width: 100%;
+            margin-top: 30px;
+            margin-right: 0
+        }
+        .tab-box li {
+            width: 47%;
+            margin-right: 1%;
+            margin-left: 1.5%
+        }
+        .mini-window {
+            width: 70%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
+        .mini-window2 {
+            width: 80%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
+        #input-rap, #qual-input, #grade-input, #course-input, #school-input, #school-year-input {
+            width: 100%
+        }
+        #year-month-sele {
+            width: 38%
+        }
+        .signup-a {
+            width: 80%;
+            margin-left: 10%
+        }
+        .center-but {
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%
+        }
+        .dashboard-actions li {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px
+        }
+        .nav-li, .nav-li ul li, .nav-li ul, #nav-ul ul {
+            background-color: inherit;
+            transition: none
+        }
+        #nav-ul li a {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 4%;
+            background-color: inherit;
+            color: #000;
+            border-bottom-width: 1px;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: solid;
+            border-left-style: none;
+            border-bottom-color: #e1e1e1;
+            background-repeat: no-repeat;
+            background-position: left center;
+            transition: none
+        }
+        #nav-ul {
+            width: 0%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2000000;
+            background-color: #fff;
+            overflow: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0;
+            transition: width .3s .1s ease-out;
+            box-shadow: 0 0 35px #333
+        }
+        .menu-check:checked~#nav-ul {
+            background-color: #f1f1f1;
+            width: 80%;
+            overflow: auto;
+             margin:0px;
+            height: 100vh;
+            padding-bottom: 10vh transition;
+            width: 0.3s 0.1s ease-out
+        }
+        #nav-ul ul li {
+            background-color: #f1f1f1;
+            transition: none
+        }
+        #close-menue {
+            display: block;
+            background-color: #ff8b3e;
+            color: #000;
+            font-size: 14px
+        }
+        .settings-info, .settings-nav {
+            width: 100%
+        }
+        #active-profile-nav {
+            background-color: inherit;
+            color: #000
+        }
+        .settings-nav-ul li a {
+            background-image: none;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            padding-right: 0;
+            padding-left: 0;
+            color: #06c;
+            width: auto;
+            font-size: 14px;
+            font-weight: 700
+        }
+        .settings-nav-ul li a:hover {
+            background-color: inherit;
+            color: #f30
+        }
+        .follow-comp-msg {
+            width: 94%;
+            margin-left: 0
+        }
+        .blog-h1-sec {
+            width: 100%
+        }
+        .c-top-bar-enrol {
+            width: 100%
+        }
+        .c-top-bar-date {
+            width: 100%;
+            margin-bottom: 20px
+        }
+        #rd-job-title-box {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
+        #cv-form {
+            width: 90%
+        }
+        #uza-change-pass-form {
+            width: 100%
+        }
+        .cookies-ok {
+            margin-bottom: 35px;
+            margin-top: 6px
+        }
+        #cookies-notify span {
+            width: 100%;
+            margin-right: 0
+        }
+        .cv-info-group {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .cv-completed-no {
+            margin-top: 5px;
+            margin-bottom: 10px
+        }
+        .dashboard-nav {
+            width: 100%;
+            height: auto;
+            background-color: #ccc;
+            box-shadow: none;
+            padding-bottom: 40px
+        }
+        .dashboard-nav a {
+            width: 31%;
+            padding-left: 14%;
+            padding-top: 15px;
+            padding-bottom: 15px
+        }
+        .dasgboard-content {
+            float: left;
+            width: 100%;
+            height: auto;
+            overflow: inherit;
+            padding-bottom: 30px
+        }
+        .dash-content {
+            height: auto;
+            padding-bottom: 30px
+        }
+        .dashboard-sec {
+            height: auto
+        }
+        .buildcv {
+            float: left;
+            margin-left: 65px
+        }
+        .cv-builder-reminder {
+            width: 75%;
+            margin-bottom: 0
+        }
+        .buildcv {
+            margin-top: 10px
+        }
+        #cv-builder-rno {
+            font-size: 14px;
+            text-align: left;
+            margin-left: 0
+        }
+        .recommended-jobs {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 40px
+        }
+        .dash-rightz {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%
+        }
+        #dash-job-ul li {
+            padding-left: 8%;
+            width: 92%;
+            background-position: left 8px;
+            margin-bottom: 18px
+        }
+        .dash-box-title {
+            padding-left: 8%;
+            width: 92%
+        }
+        #change-pass-txt {
+            width: 100%
+        }
+        .profile-pic-wrap {
+            width: 60%
+        }
+        .edit-profile-a {
+            float: left;
+            margin-top: 10px
+        }
+        #change-pass-a {
+            float: left;
+            margin-top: 20px
+        }
+        .change-photo-a {
+            float: left;
+            margin-top: 20px
+        }
+        .dash-job-h2 {
+            line-height: 16px
+        }
+        .read-left-section {
+            margin-bottom: 30px
+        }
+        #read-blog-left-section {
+            margin-bottom: 30px;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 90%
+        }
+        #saved-job-expiring-date {
+            float: right
+        }
+        .sjob-date {
+            display: inline-block
+        }
+        #sjob-expiring-box {
+            display: none
+        }
+        .cv-profile-pix {
+            width: 100%
+        }
+        .cv-personal-infox {
+            width: 100%;
+            margin-bottom: 40px
+        }
+        #cv-basic-info-but {
+            float: right
+        }
+        .user-big-pix {
+            width: 100%;
+            margin-right: 0
+        }
+    }
+    @media only screen and (max-width:700px) {
+        .update-alert {
+            width: 76%;
+            padding-left: 12%;
+            padding-right: 4%;
+            margin-left: .5%;
+            margin-right: .5%;
+            bottom: 5px
+        }
+        .update-alert span {
+            font-size: 14px
+        }
+        #company-page-search {
+            margin-bottom: 20px
+        }
+        .main-h2-2 {
+            margin-bottom: 0;
+            width: 100%
+        }
+        .choose-ur-job {
+            width: 100%;
+            margin-bottom: 8px;
+            margin-top: 18px
+        }
+        #expired-suggestion-jobs {
+            margin-left: 4.9%;
+            margin-right: 4.8%;
+            width: 80%
+        }
+        #dash-location-input {
+            display: none
+        }
+        #dash-keyword-input {
+            width: 73%
+        }
+        #dash-search-butz {
+            width: 23%;
+            background-image: none;
+            height: 38px;
+            font-size: 12px
+        }
+        .dash-search-input {
+            height: 38px;
+            font-size: 14px
+        }
+        #bxedse {
+            display: block
+        }
+        .but-11 {
+            width: 88%;
+            display: block;
+            text-align: center;
+            margin-bottom: 10px
+        }
+        #b-in-img {
+            width: 100%;
+            height: auto;
+            max-width: 100%
+        }
+        .signup-header ul {
+            width: 80%;
+            margin-left: 10%
+        }
+        #down-job-element {
+            float: left;
+            width: 100%;
+            margin-top: 20px
+        }
+        #down-share {
+            float: right
+        }
+        #not-cat-signup {
+            float: left;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .switch-but {
+            width: 80%
+        }
+        #set-kind-jtxt {
+            width: 100%
+        }
+        .course-details {
+            width: 100%;
+            margin-left: 0
+        }
+        .blog-share {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 0
+        }
+        .blog-share li {
+            width: 25%;
+            float: left;
+            clear: right;
+            margin-right: 0;
+            margin-bottom: 0
+        }
+        .blog-share li a {
+            border-radius: 0 0;
+            width: 100%;
+            height: 40px
+        }
+        #blog-ts-fb {
+            background-color: #3c5a99;
+            background-position: center -2176px
+        }
+        #blog-ts-tw {
+            background-color: #1da1f2;
+            background-position: center -2215px
+        }
+        #blog-ts-in {
+            background-color: #0083c1;
+            background-position: center -2248px
+        }
+        #blog-ts-em {
+            background-color: #999;
+            background-position: center -2282px
+        }
+        .blog-body, .comment-section {
+            width: 100%
+        }
+        .feed-link {
+            height: auto
+        }
+        .checkout-wrap {
+            width: 84%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 20px
+        }
+        #cob-but {
+            margin-left: 10px
+        }
+        #co-total {
+            font-size: 16px
+        }
+        .author-pix2 {
+            margin-left: auto;
+            margin-right: auto;
+            float: none
+        }
+        .prompt-update {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom: 5px;
+            margin-top: 20px;
+            height: auto;
+            min-height: inherit
+        }
+        .job-page-nav {
+            margin-bottom: 10px
+        }
+        .job-page-nav a {
+            width: auto;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-bottom: 6px;
+            font-weight: 400;
+            font-size: 13px;
+            margin-right: 6px
+        }
+    }
+    @media only screen and (max-width:620px) {
+        .top-switch-jobs {
+            width: 45%
+        }
+        .menue-point {
+            margin-right: 100px
+        }
+        .user-menue {
+            width: 100%;
+            right: 0;
+            top: 16px;
+            box-shadow: 5px 5px 5px #ccc
+        }
+        .content-wrap {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .mid-wind {
+            width: 90%;
+            padding-left: 0%;
+            padding-right: 0%;
+            box-shadow: none;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 20px;
+            padding-top: 0
+        }
+        #midwind-sed {
+            background-color: #fff
+        }
+        .read-ul {
+            border: none
+        }
+        #read-content-wrap {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%
+        }
+        .read-subscribe {
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 87%
+        }
+        .latest-job-box {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 80%
+        }
+        #read-down-push-ad {
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 84%
+        }
+        .right-ad {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        #content-bottom-share {
+            display: block
+        }
+        .blog-post-tags, .blog-top-post {
+            width: 100%;
+            padding-left: 0
+        }
+        .blog-top-post li {
+            width: 95%;
+            margin-right: 0;
+            padding-left: 5%
+        }
+        .job-description, .read-date-sec, .read-h1, .apply-sec, #comm-p-box {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        #read-back-to-job {
+            margin-left: 5%
+        }
+        .category-list li {
+            width: 45.5%
+        }
+        .nav-2 {
+            display: none
+        }
+        .switch-country {
+            float: left;
+            margin-left: 9%
+        }
+        #menue-but-box {
+            left: inherit
+        }
+        nav {
+            position: absolute;
+            right: 5%
+        }
+        .logo {
+            margin-right: 20px
+        }
+        .submit-signup {
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%
+        }
+        #search {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%
+        }
+        .profile-detail {
+            margin-right: 80px
+        }
+        .comment-info {
+            width: 93%
+        }
+        .comment-info2 {
+            width: 90%
+        }
+        #user-info-detail {
+            width: 100%
+        }
+        .user-pic-house {
+            float: left;
+            margin-bottom: 30px
+        }
+        .view-all-jobs {
+            width: 100%;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            margin-left: 0;
+            background-image: none;
+            float: left
+        }
+        .about-info li {
+            width: 100%;
+            background-position: left top;
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 20px
+        }
+        #about-info-social {
+            padding-top: 0
+        }
+        .mjm-story-culture {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0
+        }
+        .mjm-story-culture li img {
+            width: 100%
+        }
+        .mjm-story-culture li {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0
+        }
+        .about-info2 {
+            width: 100%;
+            margin-left: 0;
+            padding-left: 0
+        }
+        .about-info2 li {
+            width: 100%;
+            margin-bottom: 20px
+        }
+        #mjm-ab-mid {
+            border: none;
+            background-color: #fc6;
+            width: 105.5%;
+            margin-left: -6%
+        }
+        .team-list li {
+            width: 100%;
+            border: none;
+            padding-bottom: 20px;
+            padding-top: 20px
+        }
+        .about-contact li {
+            width: 100%
+        }
+        #mjm-vision {
+            border: none
+        }
+        .get-in-touch {
+            text-align: left;
+            margin-left: 0;
+            float: left;
+            display: none
+        }
+        .tag-item {
+            border: none
+        }
+        .switch-video-a {
+            width: 87%;
+            margin-top: 0;
+            margin-bottom: 20px
+        }
+        #switch-but-box {
+            width: 50%
+        }
+        .simillar-jobs li, .latest-jobs-li2 {
+            padding-left: 10%;
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            padding-top: 0;
+            line-height: 18px
+        }
+        .latest-jobs-li {
+            padding-left: 0;
+            margin-left: 5%;
+            padding-left: 3%
+        }
+        #skill-wrap-box {
+            width: 100%;
+            margin-right: 0%
+        }
+    }
+    @media only screen and (max-width:600px) {
+        .book-sellers {
+            background-size: contain
+        }
+        .exit-popup-content-right {
+            width: 90%;
+            overflow: auto
+        }
+        #scorecard-img {
+            display: block
+        }
+        .exit-popup-content {
+            overflow: auto
+        }
+        .fbp-box li {
+            width: 100%;
+            margin-right: 0%;
+            margin-left: 0%;
+            margin-bottom: 30px;
+            height: auto;
+            min-height: inherit
+        }
+        #fbp-img {
+            height: auto
+        }
+        .bpfj-box {
+            width: 90%;
+            margin-left: 0%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .bpfj-box li {
+            margin-left: 5%;
+            width: 95%;
+            margin-right: 0
+        }
+        .blog-qlinks ul {
+            width: 90%;
+            margin-left: 0%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .blog-qlinks ul li {
+            margin-left: 5%;
+            width: 95%
+        }
+        .course-form li span {
+            width: 100%;
+            margin-bottom: 10px
+        }
+        .course-input {
+            width: 97%
+        }
+        #signup-nav {
+            background-color: #f60;
+            border-right-style: none
+        }
+        #login-nav {
+            background-color: #999
+        }
+        #employer-postjob-nav {
+            display: none
+        }
+        #post-a-job-navx, #career-advice-nav {
+            display: block
+        }
+        #jobs-by-nav li:hover {
+            background-color: #fff
+        }
+        #career-advice-nav:hover {
+            background-color: #fff
+        }
+        #get-advice-nav, #hr-recruiter-advice-nav, #hr-advice-nav, #post-jobs-nav, #career-videos-nav, #recruitment-nav, #company-reviews-nav, #salaries-nav {
+            display: none
+        }
+        .blog-tred li {
+            padding-right: 20px;
+            margin-left: 10px
+        }
+        #career-vid-li {
+            float: left;
+            width: 100%;
+            margin-top: 20px
+        }
+        #career-vid-li a {
+            width: auto
+        }
+        .simillar-job-head {
+            margin-left: 0%;
+            width: 75%;
+            padding-bottom: 0;
+            margin-bottom: 20px
+        }
+        #cat-simillar-jh {
+            margin-bottom: 20px;
+            margin-left: 1%
+        }
+        .widget-wrapper {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            float: left
+        }
+        #widget-button-li {
+            margin-top: 0
+        }
+        .d-job-widget li {
+            margin-bottom: 12px
+        }
+        .widget-but {
+            width: 100%;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 0
+        }
+        .widget-input, #title_font_color, #background_color, #font_color, #link_color, #border_color {
+            width: 88%;
+            padding-left: 3%
+        }
+        #widget-comp-input {
+            width: 90%
+        }
+        .d-job-widget li span {
+            width: 100%;
+            margin-bottom: 6px
+        }
+        .profile-detail {
+            margin-right: 70px;
+            margin-top: 8px
+        }
+        .profile-name {
+            display: none
+        }
+        .subscribe-input-3 {
+            width: 65%
+        }
+        .read-sub-form-top {
+            width: 100%;
+            margin-bottom: 15px
+        }
+        .search-input-wrap {
+            width: 78%
+        }
+        .search-but {
+            width: 18%
+        }
+        .footer-list {
+            width: 49%;
+            margin-bottom: 50px;
+            display: inline-block;
+            vertical-align: top;
+            float: none
+        }
+        .subscribe-input {
+            width: 58%
+        }
+        #subscribe-but {
+            width: 34%
+        }
+        .push-ad-text2 {
+            width: 100%;
+            padding-left: 0;
+            padding-top: 40px;
+            background-position: center top;
+            text-align: center;
+            margin-bottom: 20px
+        }
+        .push-ad2 {
+            width: 80%;
+            padding-left: 10%;
+            padding-right: 10%
+        }
+        #company-name-label {
+            width: 85%
+        }
+        #add-uni {
+            margin-left: 0;
+            margin-top: 10px
+        }
+        .push-ad-but2 {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            float: left;
+            padding-left: 0;
+            padding-right: 0
+        }
+        .job-logo {
+            display: none
+        }
+        .job-info {
+            width: 100%;
+            margin-left: 0%
+        }
+        #subscribe-but-2 {
+            background-image: none;
+            font-size: 11px
+        }
+        .smart-search-fields {
+            width: 100%
+        }
+        .ss-f-but {
+            margin-bottom: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-position: right -1167px
+        }
+        .smart-search-but {
+            margin-bottom: 10px
+        }
+        #ss-f-education ul, #ss-f-experience ul, #ss-f-location ul {
+            right: 10px
+        }
+        .button2, .button0 {
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center
+        }
+        #login-wrap {
+            width: 100%;
+            padding-left: 0%;
+            padding-right: 0%
+        }
+        .view-all3 {
+            width: 100%;
+            margin-left: 0;
+            float: left;
+            text-align: center;
+            margin-right: 0
+        }
+        #read-back-to-job, #jobs-at-comp {
+            margin-left: 0;
+            float: left;
+            padding-left: 0;
+            padding-right: 0
+        }
+        .signup-bg {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0
+        }
+        #sub-cv-form {
+            margin-bottom: 10px
+        }
+        .update-but {
+            width: 100%
+        }
+        .switch-but {
+            width: 100%
+        }
+        #cover-letter-save {
+            width: 60%
+        }
+        #switch-but-left {
+            width: 40%
+        }
+        #switch-but-right {
+            width: 60%
+        }
+        .table-of-content {
+            width: 93%
+        }
+        .comment-name, .comm-date {
+            width: 100%;
+            margin-bottom: 5px
+        }
+        .book-nav {
+            width: 100%;
+            margin-top: 20px
+        }
+        .book-nav a {
+            width: 32%;
+            text-align: center;
+            padding-left: 0%;
+            padding-right: 0%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .book-sheet {
+            width: 100%
+        }
+        .book-video {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px
+        }
+        .buy-book3 {
+            width: 100%;
+            margin-left: 0
+        }
+        .book-readers {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .view-all2 {
+            font-size: 15px
+        }
+        #book-info-sec {
+            background-image: none
+        }
+        .book-info-box {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%
+        }
+        .user-input {
+            padding-left: .5%;
+            width: 99%;
+            padding-right: 0;
+            float: left
+        }
+        #user-byear {
+            width: 40%
+        }
+        .cv-status-box {
+            margin-top: 5px;
+            text-align: center
+        }
+        .cv-prev-down-box {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 5px
+        }
+        .cv-buts {
+            width: auto;
+            padding-left: 20px;
+            padding-right: 20px
+        }
+    }
+    @media only screen and (max-width:550px) {
+        #cv-skill-input {
+            width: 100%;
+            margin-right: 0%
+        }
+        #read-in-ad {
+            width: 100%;
+            height: auto
+        }
+        .course-list li {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
+        .job-l-col {
+            float: left;
+            width: 100%;
+            margin-right: 0%
+        }
+        .blog-cat-list li {
+            margin-right: 0;
+            width: 100%
+        }
+        .post-house {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: 0;
+            padding-top: 0
+        }
+        .each-blog {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 20px
+        }
+        .testi-input, #testi-state {
+            width: 99%;
+            padding-left: 1%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 8px
+        }
+        .signup-header ul {
+            width: 100%;
+            margin-left: 0%
+        }
+        #top-save-email {
+            float: left;
+            margin-left: -5px;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+        #email-job {
+            float: right
+        }
+        .read-sub-top {
+            padding-bottom: 0
+        }
+        .subscribe-input-3 {
+            width: 64%
+        }
+        .signup-cat li:hover {
+            box-shadow: none
+        }
+        .signup-cat li {
+            width: 90%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            border: none
+        }
+        .signup-cat li h2 {
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+        .signup-a {
+            margin-top: 10px
+        }
+        #signup-cat-cw {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0
+        }
+        #jobseeker-cat {
+            background-color: #fc3
+        }
+        #employer-cat {
+            background-color: #f1f1f1
+        }
+        #signup-section {
+            margin-top: 20px
+        }
+        .signup-cat {
+            margin-top: 20px
+        }
+        .center-but {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-left: 0;
+            padding-right: 0
+        }
+        .comment-info {
+            width: 87%
+        }
+        .comment-info2 {
+            width: 85%
+        }
+        .rc-priz {
+            width: 100%;
+            margin-bottom: 15px
+        }
+        .course-enrol {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center
+        }
+        #app-signup-pass {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        #subscribe-but-3 {
+            width: 22%
+        }
+    }
+    @media only screen and (max-width:500px) {
+        #subscribe-but-3 {
+            width: 21.5%
+        }
+        .apply-but {
+            width: 100%;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 30px
+        }
+        #down-job-element {
+            margin-top: 25px
+        }
+        .job-element {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 40px
+        }
+        .job-element li {
+            width: 32%;
+            margin-left: 0;
+            margin-right: 2%;
+            float: left;
+            padding-left: 0;
+            padding-right: 0
+        }
+        .job-element li a {
+            width: 100%;
+            float: left;
+            margin-left: 0;
+            text-align: center;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0
+        }
+        #email-job {
+            padding-left: 0;
+            padding-right: 0;
+            background-position: 10px -988px;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+            float: left
+        }
+        #report-job {
+            background-position: 10px -1135px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%
+        }
+        #save-job {
+            background-position: 10px -959px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%
+        }
+        #down-share {
+            float: none;
+            margin-top: 10px;
+            width: 221px;
+            margin-left: auto;
+            margin-right: auto
+        }
+        .top-warning {
+            margin-top: 47px;
+            margin-bottom: 0;
+            float: left;
+            height: auto;
+            margin-bottom: -35px
+        }
+        .dsearch-class1 {
+            height: auto;
+            position: relative;
+            margin-top: -42px;
+            z-index: 10
+        }
+        .signup-ul li {
+            width: 100%;
+            margin-bottom: 15px
+        }
+        #facebook-signup {
+            background-position: 10px -1738px
+        }
+        #google-signup {
+            background-position: 10px -1781px
+        }
+        #linkedin-signup {
+            background-position: 10px -1854px
+        }
+        #twitter-signup {
+            background-position: 10px -1820px
+        }
+        .smart-search-input {
+            background-image: none;
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-left: 0;
+            margin-right: 0;
+            width: 96%
+        }
+        .smart-search-but {
+            width: 96%;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 2%;
+            margin-right: 2%;
+            border: none
+        }
+        .jkey-title {
+            width: 30%;
+            float: left;
+            margin-right: 3%
+        }
+        .jkey-info {
+            width: 60%;
+            float: left
+        }
+        .switch-country-a, #sa-country-bx {
+            color: transparent;
+            padding-right: 10px;
+            padding-left: 30px;
+            width: 3px;
+            height: 18px;
+            overflow: hidden;
+            background-position: 7px center, 27px -502px
+        }
+        .search-input-wrap {
+            width: 80%
+        }
+        #search-title {
+            display: block
+        }
+        .search-but {
+            width: 20%;
+            border-bottom-right-radius: 25px 25px;
+            border-top-right-radius: 25px 25px;
+            background-repeat: no-repeat;
+            background-position: right 5px top -1203px;
+            padding-left: 0;
+            padding-right: 0;
+            color: transparent;
+            background-color: #fff
+        }
+        .search-but:hover {
+            background-color: #f0f0f0
+        }
+        #search-key {
+            border-top-right-radius: 0 0;
+            border-top-left-radius: 25px 25px;
+            border-bottom-left-radius: 25px 25px;
+            background-image: none;
+            padding-left: 10%;
+            width: 85%
+        }
+        .header {
+            position: fixed;
+            z-index: 10000000
+        }
+        #search-key:hover {
+            background-image: none
+        }
+        .search-input {
+            padding-left: 25%;
+            padding-right: 5%;
+            width: 70%;
+            margin-bottom: 0;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #e8e8e8;
+            height: 40px
+        }
+        #search-box-wrap, #category-search-box {
+            display: block
+        }
+        .dsearch-class2 {
+            height: 0;
+            position: fixed;
+            top: 40px;
+            overflow: hidden;
+            height: 0;
+            padding-top: 0;
+            padding-bottom: 0
+        }
+        .profile-pic {
+            margin-top: -1px;
+            border-radius: 14px 14px;
+            width: 28px;
+            height: 28px
+        }
+        #user-name-pix {
+            width: 69%;
+            padding-right: 18%;
+            height: 40px;
+            float: left;
+            display: block;
+            background-repeat: no-repeat;
+            background-position: right 10px
+        }
+        .mobile-nav, .mobile-search-icon {
+            display: block
+        }
+        .search-but {
+            height: 40px;
+            background-position: right 5px top -1209px
+        }
+        .logo {
+            margin-top: 10px
+        }
+        .switch-country {
+            margin-top: 3px;
+            margin-left: 4px
+        }
+        .search-form {
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+        .search-input-box {
+            width: 100%
+        }
+        #menue-but-box {
+            margin-top: 5px;
+            background-color: inherit;
+            font-weight: 700
+        }
+        .advance-search-but {
+            width: 42%;
+            margin-left: 28%;
+            margin-right: 28%;
+            background-color: #f63;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 15px 15px;
+            padding-left: 0;
+            padding-right: 3%;
+            font-size: 10px;
+            color: #333;
+            background-position: right 3px top -1518px;
+            overflow: hidden
+        }
+        #search-location {
+            display: none
+        }
+        .fix-subscribe-li-1 {
+            width: 94%
+        }
+        .fix-subscribe-li {
+            display: none
+        }
+        #menue-but {
+            width: 30px;
+            height: 30px
+        }
+        #menue-but-box {
+            right: 4%;
+            left: inherit;
+            z-index: 500000;
+            padding-right: 12px;
+            font-size: 10px
+        }
+        .menue-text {
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 9px
+        }
+        .nav-2 {
+            display: none
+        }
+        .logo {
+            width: 100px;
+            margin-right: 10px
+        }
+        .course-img {
+            width: 40%
+        }
+        .course-info {
+            width: 55%
+        }
+        .subscribe-input {
+            width: 100%;
+            padding-right: 0;
+            padding-left: 0%
+        }
+        #subscribe-but, #subscribe-but2, #subscribe-user-email2, #subscribe-user-email {
+            width: 98%;
+            float: left;
+            padding-left: 2%;
+            padding-right: 0
+        }
+        #subscribe-user-email {
+            margin-bottom: 10px
+        }
+        .category-box li {
+            width: 96%
+        }
+        .sort-job {
+            width: 100%;
+            margin-bottom: 20px
+        }
+        #vacant-no {
+            width: 100%;
+            text-align: left;
+            float: left
+        }
+        .category-list li {
+            width: 95%;
+            height: auto
+        }
+        .tab-box li {
+            width: 98%;
+            margin-left: 0;
+            margin-right: 0
+        }
+        #cat-tab-field {
+            background-position: 20px -1292px
+        }
+        #cat-tab-industry {
+            background-position: 20px -1322px
+        }
+        #cat-tab-state {
+            background-position: 20px -1357px
+        }
+        #cat-tab-education {
+            background-position: 20px -1388px
+        }
+        #cat-tab-company {
+            background-position: 20px -1420px
+        }
+        .category-list li {
+            width: 92%;
+            padding-left: 3%;
+            padding-right: 3%
+        }
+        .mini-window {
+            box-shadow: none;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 80%
+        }
+        .login-right {
+            padding-left: 0%;
+            padding-right: 0%;
+            box-shadow: none
+        }
+        .login-left {
+            box-shadow: none;
+            margin-top: 30px
+        }
+        #login-wrap {
+            padding-top: 20px
+        }
+        .signup-right {
+            box-shadow: none
+        }
+        .comment-info {
+            width: 81%
+        }
+        .comment-info2 {
+            width: 76%
+        }
+        .user-info-6 {
+            width: 100%
+        }
+        .user-info-5 {
+            width: 100%;
+            font-size: 13px
+        }
+        .alert-box {
+            margin-top: 10px;
+            margin-right: 0
+        }
+        .profile-detail {
+            margin-right: 54px;
+            margin-top: 9px
+        }
+    }
+}
+@media only screen and (max-width:400px) {
+    #emp-ad-a {
+        margin-left: 0%
+    }
+    #emp-ad-a img, #emp-ad-a2 img {
+        width: 100%
+    }
+    .center-but {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%
+    }
+    .social-login li {
+        width: 100%;
+        font-weight: 700
+    }
+    .view-all2 {
+        float: left
+    }
+    #subscribe-but-3, #subscribe-but-4 {
+        background-image: none
+    }
+    .subscribe-input-3 {
+        width: 60.5%
+    }
+    .read-date-sec-li {
+        width: 90%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 10%
+    }
+    .subscribe-input-2 {
+        width: 62%
+    }
+    .footer-list {
+        width: 97%;
+        margin-left: 0;
+        margin-right: 0;
+        float: left
+    }
+    .footer-list ul {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+    .subscribe-input {
+        width: 95%;
+        margin-bottom: 10px;
+        padding-left: 5%
+    }
+    #subscribe-but {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .course-img {
+        width: 100%
+    }
+    .course-info {
+        width: 100%
+    }
+    .smart-search-fields li ul {
+        left: 20px
+    }
+    #right-main-ad img {
+        width: 100%
+    }
+}
+@media only screen and (max-width:370px) {
+    .switch-country {
+        display: none
+    }
+    .mobile-search-icon {
+        margin-left: 0
+    }
+    .logo {
+        width: 80px;
+        margin-right: 3px
+    }
+}
