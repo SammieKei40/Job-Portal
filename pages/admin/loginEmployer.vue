@@ -87,8 +87,8 @@ data: () => ({
           this.email,
           this.password
         );
-        window.location.href = 'https://www.facebook.com';
-        this.$router.push('www.facebook.com');
+        window.location.href = 'https://employerdashboard.netlify.app';
+        this.$router.push('https://employerdashboard.netlify.app');
       } catch (e) {
         handleError(e);
       }

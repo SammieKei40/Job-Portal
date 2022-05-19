@@ -23,7 +23,7 @@
 
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw mr-3"></i>
-                    <div class="form-outline flex-fill mb-0">
+                    <div class="form-outline flex-fill mb-0" :class="[ isEmailValid()]">
                       <input v-model="email" type="email" id="email" class="form-control" placeholder="Email Address"/>
                       
                     </div>
@@ -32,7 +32,7 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fas fa-phone-alt me-3 fa-fw mr-3"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input v-model="number" type="number" id="form3Example3c" class="form-control" placeholder="Phone Number"/>
+                      <input type="number" id="form3Example3c" class="form-control" placeholder="Phone Number"/>
                       
                     </div>
                   </div>
@@ -70,30 +70,47 @@
 </template>
 
 <script>
+
+
 export default {
 data: () => ({
     name: "",
     email: "",
-    number: "",
-    password: ""
+    password: "",
+    reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/
   }),
   methods: {
     async createUser() {
-      console.log("strted")
-      try {
-        await this.$fire.auth.createUserWithEmailAndPassword(
-          this.email,
-          this.password
-        )
-        this.$router.push('aftersignup')
-      } catch (e) {
-        handleError(e)
+      firebase
+        .auth()
+        .createUserWithEmailAndPassword(this.user.email, this.user.password)
+      const actionCodeSettings = {
+        url: 'https://www.naviclearn.com/evolveI',
+        handleCodeInApp: true
       }
+      firebase.auth().currentUser.sendEmailVerification(actionCodeSettings)
+        .then(data => {
+          alert('User successfully created!')
+          console.log(data)
+          this.$router.push({ name: 'evolveGo' })
+        })
+        .catch(error => {
+          this.error = error.message
+        })
+    },
+    isEmailValid: function() {
+      return (this.email == "")? "" : (this.reg.test(this.email)) ? 'has-success' : 'has-error';
     }
   }
+
 }
 </script>
 
-<style>
-
+<style scoped>
+.has-screen{
+  color:green
+}
+.has-error{
+  color:red
+}
 </style>

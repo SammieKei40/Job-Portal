@@ -120,8 +120,7 @@
                         <li class="job-list-li">
                             <ul>
                                 <li class="job-logo">
-                                    <a href="#"><img src="company_logo/86/37832ipas_logo_jobs.png" alt="IPAS" width="100%" height="auto" title="IPAS logo" /></a>
-                                </li>
+                                 </li>
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -143,9 +142,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="jobs-at/index.html"><img src="company_logo/86/default-company-logo.png" alt="Sales Manager at an FMCG Company" width="100%" height="auto" title=" logo" /></a>
-                                </li>
+          
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -165,9 +162,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Obikason Agro" width="100%" height="auto" title="Obikason Agro logo" /></a>
-                                </li>
+          
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -187,9 +182,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Human Resources Assistant at CNG GLASS NIGRIA FZE" width="100%" height="auto" title=" logo" /></a>
-                                </li>
+          
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -209,9 +202,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Webnig.com" width="100%" height="auto" title="Webnig.com logo" /></a>
-                                </li>
+          
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -233,9 +224,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Neptune Microfinance Bank" width="100%" height="auto" title="Neptune Microfinance Bank logo" /></a>
-                                </li>
+          
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -255,9 +244,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Neptune Microfinance Bank" width="100%" height="auto" title="Neptune Microfinance Bank logo" /></a>
-                                </li>
+                      
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -277,9 +264,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Plan International" width="100%" height="auto" title="Plan International logo" /></a>
-                                </li>
+                      
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -301,10 +286,7 @@
                        
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="ARM Hold Co." width="100%" height="auto" title="ARM Hold Co. logo" /></a>
-                                </li>
-                                <li class="job-info">
+                                                      <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
                                             <h2><a href="#">Jobs at ARM Pension Managers (PFA) Limited</a></h2>
@@ -347,9 +329,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Alneli" width="100%" height="auto" title="Alneli logo" /></a>
-                                </li>
+                       
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -374,33 +354,10 @@
                                 </li>
                             </ul>
                         </li>
+                       
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Isidore Agritech Limited" width="100%" height="auto" title="Isidore Agritech Limited logo" /></a>
-                                </li>
-                                <li class="job-info">
-                                    <ul>
-                                        <li class="mag-b">
-                                            <h2><a href="#">Sales/QA Agent at Isidore Agritech Limited</a></h2>
-                                        </li>
-                                        <li class="job-desc">
-                                            Isidore is a digital platform for Agri-SMEs (e.g. suppliers of grains) & Agro Buyers (e.g. Feed mills, FMCGS) that enables purchase order management and facilitates access to working capital, for all...
-                                        </li>
-                                        <li class="job-item">
-                                            <ul>
-                                                <li id="job-date">06 May</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="job-list-li">
-                            <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Institute of Credit Administration" width="100%" height="auto" title="Institute of Credit Administration logo" /></a>
-                                </li>
+                       
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -418,35 +375,11 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="job-list-li">
-                            <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Sendme Food Technology Ltd" width="100%" height="auto" title="Sendme Food Technology Ltd logo" /></a>
-                                </li>
-                                <li class="job-info">
-                                    <ul>
-                                        <li class="mag-b">
-                                            <h2><a href="#">Crop Farm Supervisor at Sendme Food Technology Ltd</a></h2>
-                                        </li>
-                                        <li class="job-desc">
-                                            Fresh meat delivered to your doorstep at the cheapest prices
-                                        </li>
-                                        <li class="job-item">
-                                            <ul>
-                                                <li id="job-date">06 May</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="job-list-li" style="text-align:center;">
+                                            <li class="job-list-li" style="text-align:center;">
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="Bradfield Consulting" width="100%" height="auto" title="Bradfield Consulting logo" /></a>
-                                </li>
+                    
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -466,10 +399,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="#" alt="GUS Consulting" width="100%" height="auto" title="GUS Consulting logo" /></a>
-                                </li>
-                                <li class="job-info">
+                                                    <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
                                             <h2><a href="#">Fresh Jobs at GUS Consulting Limited</a></h2>
@@ -494,9 +424,7 @@
                         </li>
                         <li class="job-list-li">
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="" alt="Jaykay Group" width="100%" height="auto" title="Jaykay Group logo" /></a>
-                                </li>
+                
                                 <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
@@ -515,10 +443,7 @@
                             </ul>
                         </li>
                             <ul>
-                                <li class="job-logo">
-                                    <a href="#"><img src="company_logo/86/83576FirstExcelsia_logo.jpg" alt="First Excelsia" width="100%" height="auto" title="First Excelsia logo" /></a>
-                                </li>
-                                <li class="job-info">
+                                                  <li class="job-info">
                                     <ul>
                                         <li class="mag-b">
                                             <h2><a href="#">Front Desk Officer at an FMCG Company - First Excelsia Professional Services Limited</a></h2>
@@ -534,7 +459,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        
                     </ul>
                     <div class="mag-b bm-b-20">
                         <div id="choose-job-down" class="choose-ur-job">Choose the kind of jobs you see <a href="jobseekers/signup.html" class="but-1">Signup</a></div>
@@ -640,53 +565,30 @@
                             <li style="width:100%">
                                 <div class="h3-line bm-b-20">&nbsp;</div>
                             </li>
-                            <li><a title="ICT / Telecommunications Jobs" href="jobs-by-industry/ict-telecommunications.html">ICT / Telecommunications Jobs</a></li>
-                            <li><a title="NGO / Non-Profit Associations Jobs" href="jobs-by-industry/ngo.html">NGO / Non-Profit Associations Jobs</a></li>
-                            <li><a title="Oil and Gas / Energy / Marine Jobs" href="jobs-by-industry/oil-and-gas.html">Oil and Gas / Energy / Marine Jobs</a></li>
-                            <li><a title="Manufacturing / FMCG Jobs" href="jobs-by-industry/manufacturing.html">Manufacturing / FMCG Jobs</a></li>
-                            <li><a title="Banking / Financial Services Jobs" href="jobs-by-industry/banking-financial-services.html">Banking / Financial Services Jobs</a></li>
-                            <li><a title="Healthcare / Medical Jobs" href="jobs-by-industry/medical.html">Healthcare / Medical Jobs</a></li>
-                            <li><a title="Education / Teaching Jobs" href="jobs-by-industry/education.html">Education / Teaching Jobs</a></li>
-                            <li><a title="Engineering / Power / Energy Jobs" href="jobs-by-industry/engineering.html">Engineering / Power / Energy Jobs</a></li>
-                            <li style="width:100%"><a href="jobs-by-industry.html" id="view-all">Search jobs by industry</a></li>
+                            <li><a title="ICT / Telecommunications Jobs" href="#">ICT / Telecommunications Jobs</a></li>
+                            <li><a title="NGO / Non-Profit Associations Jobs" href="#">NGO / Non-Profit Associations Jobs</a></li>
+                            <li><a title="Oil and Gas / Energy / Marine Jobs" href="#">Oil and Gas / Energy / Marine Jobs</a></li>
+                            <li><a title="Manufacturing / FMCG Jobs" href="#">Manufacturing / FMCG Jobs</a></li>
+                            <li><a title="Banking / Financial Services Jobs" href="#">Banking / Financial Services Jobs</a></li>
+                            <li><a title="Healthcare / Medical Jobs" href="#">Healthcare / Medical Jobs</a></li>
+                            <li><a title="Education / Teaching Jobs" href="#">Education / Teaching Jobs</a></li>
+                            <li><a title="Engineering / Power / Energy Jobs" href="#">Engineering / Power / Energy Jobs</a></li>
+                            <li style="width:100%"><a href="#" id="view-all">Search jobs by industry</a></li>
                         </ul>
                         <ul class="category-box" style="border-bottom:none;">
                             <li id="job-cat-head">Job By Title </li>
                             <li style="width:100%">
                                 <div class="h3-line bm-b-20">&nbsp;</div>
                             </li>
-                            <li><a title="Graphic Designer Jobs" href="jobs-by-title/graphic-designer.html">Graphic Designer Jobs</a></li>
-                            <li><a title="Writer Jobs" href="jobs-by-title/writer.html">Writer Jobs</a></li>
-                            <li><a title="Intern Jobs" href="jobs-by-title/intern.html">Intern Jobs</a></li>
-                            <li><a title="Web Developer Jobs" href="jobs-by-title/web-developer.html">Web Developer Jobs</a></li>
-                            <li><a title="Front Desk Jobs" href="jobs-by-title/front-desk.html">Front Desk Jobs</a></li>
-                            <li><a title="Sales Manager Jobs" href="jobs-by-title/sales-manager.html">Sales Manager Jobs</a></li>
-                            <li><a title="Medical Representative Jobs" href="jobs-by-title/medical.html">Medical Representative Jobs</a></li>
-                            <li><a title="Accountant Jobs" href="jobs-by-title/accountant.html">Accountant Jobs</a></li>
-                            <li style="width:100%"><a title="Search jobs by title" href="job-titles.html" id="view-all">Search jobs by title</a></li>
-                        </ul>
-                        <ul class="category-box" style="border-bottom:none;">
-                            <li id="job-cat-head">Job By Type </li>
-                            <li style="width:100%">
-                                <div class="h3-line bm-b-20">&nbsp;</div>
-                            </li>
-                            <li><a title="Contract Jobs" href="jobs-by-type/contract.html">Contract Jobs</a></li>
-                            <li><a title="Full Time Jobs" href="jobs-by-type/full-time.html">Full Time Jobs</a></li>
-                            <li><a title="Part Time Jobs" href="jobs-by-type/part-time.html">Part Time Jobs</a></li>
-                            <li><a title="Expatriate Jobs" href="jobs-by-type/expatriate.html">Expatriate Jobs</a></li>
-                            <li><a title="Remote Jobs" href="jobs-by-type/remote.html">Remote Jobs</a></li>
-                        </ul>
-                        <ul class="category-box">
-                            <li id="job-cat-head">Job By Date </li>
-                            <li style="width:100%">
-                                <div class="h3-line bm-b-20">&nbsp;</div>
-                            </li>
-                            <li><a title="Today Jobs" href="jobs-by-date/today.html">Today Jobs</a></li>
-                            <li><a title="Yesterday Jobs" href="jobs-by-date/yesterday.html">Yesterday Jobs</a></li>
-                            <li><a title="This Week Jobs" href="jobs-by-date/this-week.html">This Week Jobs</a></li>
-                            <li><a title="Last Week Jobs" href="jobs-by-date/last-week.html">Last Week Jobs</a></li>
-                            <li><a title="This Month Jobs" href="jobs-by-date/this-month.html">This Month Jobs</a></li>
-                            <li><a title="Last Month Jobs" href="jobs-by-date/last-month.html">Last Month Jobs</a></li>
+                            <li><a title="Graphic Designer Jobs" href="#">Graphic Designer Jobs</a></li>
+                            <li><a title="Writer Jobs" href="#">Writer Jobs</a></li>
+                            <li><a title="Intern Jobs" href="#">Intern Jobs</a></li>
+                            <li><a title="Web Developer Jobs" href="#">Web Developer Jobs</a></li>
+                            <li><a title="Front Desk Jobs" href="#">Front Desk Jobs</a></li>
+                            <li><a title="Sales Manager Jobs" href="#">Sales Manager Jobs</a></li>
+                            <li><a title="Medical Representative Jobs" href="#">Medical Representative Jobs</a></li>
+                            <li><a title="Accountant Jobs" href="#">Accountant Jobs</a></li>
+                            <li style="width:100%"><a title="Search jobs by title" href="#" id="view-all">Search jobs by title</a></li>
                         </ul>
                     </div>
                     <div class="mag-b bm-b-30">
@@ -793,19 +695,7 @@
                         <li><a href="#" >Buy 72 hours to the job you love</a></li>
                     </ul>
                 </li>
-                <li class="footer-list">
-                    <ul>
-                        <li id="footer-title">Companies</li>
-                        <li id="footer-head-line"></li>
-                        <li><a href="employers/index.html" >Post a Job</a></li>
-                        <li><a href="shortlist.html" >Shortlisting Service</a></li>
-                        <li><a href="recruitment.html" >Recruitment Service</a></li>
-                        <li><a href="employers/find-candidates.html" >Candidate Search</a></li>
-                        <li><a href="https://www.mysalaryscale.com/salary-research" >Salary Research</a></li>
-                        <li><a href="advertise.html" >Advertise</a></li>
-                    </ul>
-                </li>
-            
+                
             <div class="footer-butom">
                 <a href="#" >About Us</a>
                 <a href="#" >Contact Us</a>
