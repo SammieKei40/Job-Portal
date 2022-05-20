@@ -486,7 +486,10 @@
                                 <p class="center ts-14 tc-b66">Join our happy subscribers</p>
                             </div>
 
-                            <form name="subscribe-form" class="subscribe-form" action="#" method="post"><input onClick="activeSubscribe(this)" autocomplete="off" onKeyUp="showEmailHost(this)" id="subscribe-user-email2" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!" value="" /><input type="text" name="first_name" autocomplete="off" id="subscribe-user-name" /><input type="checkbox" name="mail" id="subscribe-user-mail" autocomplete="off" value="yes" /><input id="subscribe-but2" type="submit" value="Subscribe" /><input type="hidden" name="subscribe_token" value="c23c728e9bd7bd7c8bdd255d0500065b" />
+                            <form @submit.prevent="activeSubscribe" name="subscribe-form" class="subscribe-form" action="#" method="post">
+                                <input v-model="email"  autocomplete="on"  id="subscribe-user-email2" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!"  />
+        
+                                <button id="subscribe-but2" @submit="activeSubscribe">Subscribe</button>
                                 <div id="mail-host-house" style="margin-top: 0px">
                                     <ul class="mail-hosts">
                                         <li onClick="choseEmailHost(this)">@gmail.com</li>
@@ -498,6 +501,7 @@
                             </form>
                         </div>
                     </div>
+
                     <div class="mag-b bm-b-10 center">
 
                     </div>
@@ -594,23 +598,29 @@
                     <div class="mag-b bm-b-30">
 
                     </div>
-                    <div id="subscription" style="width: 90%; padding-left: 5%; padding-right: 5%; padding-top: 30px; padding-bottom: 30px; margin-top: 0px; margin-bottom: 20px">
-                        <div class="mag-b">
-                            <h2 class="main-h2">Subscribe to Job Alert</h2>
-                            <div class="h2-line bm-b-10" id="subscr-h2-line">&nbsp;</div>
-                            <p class="center ts-14 tc-b66">Join our happy subscribers</p>
-                        </div>
-
-                        <form name="subscribe-form" class="subscribe-form" action="https://www.myjobmag.com/subscribe" method="post"><input onClick="activeSubscribe(this)" autocomplete="off" onKeyUp="showEmailHost(this)" id="subscribe-user-email2" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!" value="" /><input type="text" name="first_name" autocomplete="off" id="subscribe-user-name" /><input type="checkbox" name="mail" id="subscribe-user-mail" autocomplete="off" value="yes" /><input id="subscribe-but2" type="submit" value="Subscribe" /><input type="hidden" name="subscribe_token" value="c23c728e9bd7bd7c8bdd255d0500065b" />
-                            <div id="mail-host-house" style="margin-top: 0px">
-                                <ul class="mail-hosts">
-                                    <li onClick="choseEmailHost(this)">@gmail.com</li>
-                                    <li onClick="choseEmailHost(this)">@yahoo.com</li>
-                                    <li onClick="choseEmailHost(this)">@outlook.com
-                                    </li>
-                                </ul>
+                    
+                    <div class="mag-b bm-b-30">
+                        <div id="subscription" style="width: 90%; padding-left: 5%; padding-right: 5%; padding-top: 30px; padding-bottom: 30px; margin-top: 0px; margin-bottom: 20px">
+                            <div class="mag-b">
+                                <h2 class="main-h2">Subscribe to Job Alert</h2>
+                                <div class="h2-line bm-b-10" id="subscr-h2-line">&nbsp;</div>
+                                <p class="center ts-14 tc-b66">Join our happy subscribers</p>
                             </div>
-                        </form>
+
+                            <form @submit.prevent="activeSubscribe" name="subscribe-form" class="subscribe-form" action="#" method="post">
+                                <input v-model="email"  autocomplete="on"  id="subscribe-user-email2" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!"  />
+        
+                                <button id="subscribe-but2" @submit="activeSubscribe">Subscribe</button>
+                                <div id="mail-host-house" style="margin-top: 0px">
+                                    <ul class="mail-hosts">
+                                        <li onClick="choseEmailHost(this)">@gmail.com</li>
+                                        <li onClick="choseEmailHost(this)">@yahoo.com</li>
+                                        <li onClick="choseEmailHost(this)">@outlook.com
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
                     </div>
 
                     <div class="mag-b bm-b-50">
@@ -640,28 +650,31 @@
                 </div>
             </div>
         </div>
-        <div class="mag-b" id="main-subscribe-box">
-            <div id="subscription">
-                <div class="content-wrap">
-                    <div class="mag-b">
-                        <h2 class="main-h2">Subscribe to Job Alert</h2>
-                        <div class="h2-line bm-b-10" id="subscr-h2-line">&nbsp;</div>
-                        <p class="center ts-14 tc-b66">Join our happy subscribers</p>
+       
+            <div class="mag-b bm-b-30">
+                        <div id="subscription" style="width: 90%; padding-left: 5%; padding-right: 5%; padding-top: 30px; padding-bottom: 30px; margin-top: 0px; margin-bottom: 20px">
+                            <div class="mag-b">
+                                <h2 class="main-h2">Subscribe to Job Alert</h2>
+                                <div class="h2-line bm-b-10" id="subscr-h2-line">&nbsp;</div>
+                                <p class="center ts-14 tc-b66">Join our happy subscribers</p>
+                            </div>
+
+                            <form @submit.prevent="activeSubscribe" name="subscribe-form" class="subscribe-form" action="#" method="post">
+                                <input v-model="email"  autocomplete="on"  id="subscribe-user-email2" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!"  />
+        
+                                <button id="subscribe-but2" @submit="activeSubscribe">Subscribe</button>
+                                <div id="mail-host-house" style="margin-top: 0px">
+                                    <ul class="mail-hosts">
+                                        <li onClick="choseEmailHost(this)">@gmail.com</li>
+                                        <li onClick="choseEmailHost(this)">@yahoo.com</li>
+                                        <li onClick="choseEmailHost(this)">@outlook.com
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
                     </div>
 
-                    <form name="subscribe-form" class="subscribe-form" action="https://www.myjobmag.com/subscribe" method="post"><input onClick="activeSubscribe(this)" autocomplete="off" onKeyUp="showEmailHost(this)" id="subscribe-user-email" class="subscribe-input" type="email" name="subscribe_email_input" placeholder="Enter your email here!" value="" /><input type="text" name="first_name" autocomplete="off" id="subscribe-user-name" /><input type="checkbox" name="mail" id="subscribe-user-mail" autocomplete="off" value="yes" /><input id="subscribe-but" type="submit" value="Subscribe" /><input type="hidden" name="subscribe_token" value="c23c728e9bd7bd7c8bdd255d0500065b" />
-                        <div id="mail-host-house">
-                            <ul class="mail-hosts">
-                                <li onClick="choseEmailHost(this)">@gmail.com</li>
-                                <li onClick="choseEmailHost(this)">@yahoo.com</li>
-                                <li onClick="choseEmailHost(this)">@outlook.com
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
         <section class="mag-b">
             <div class="content-wrap">
                 <div id="mjm-desc-sec">
@@ -669,7 +682,7 @@
                     <div class="mjm-desc-detail ts-13">
                         <h2>Available Jobs in Nigeria Today</h2>
                         <p>Job Portal is a fast-growing jobs in Nigeria publishing platform.</p>
-                        <p>We assist job seekers by providing a listing of common jobs in Nigeria, verified job vacancies in Nigeria and career information from employers and recruiters in all Nigerian states. We ensure candidates get to apply for insider job openings near them that go unadvertised both online and in newspapers. Our job services are FREE ie. we do not expect jobseekers to pay for our career services. Subscribe to MyJobMag via the following channels: <a href="index.html#subscription">email</a>, <a href="https://www.facebook.com/myjobmag" >Facebook</a>, <a href="https://twitter.com/myjobmag" >Twitter</a>, <a href="https://www.linkedin.com/company/myjobmag-com/" target="_blank">Linkedin</a> and you can check out the latest trending <a href="hot-nigerian-jobs.html">hot nigerian jobs</a> today</p>
+                        <p>We assist job seekers by providing a listing of common jobs in Nigeria, verified job vacancies in Nigeria and career information from employers and recruiters in all Nigerian states. We ensure candidates get to apply for insider job openings near them that go unadvertised both online and in newspapers. Our job services are FREE ie. we do not expect jobseekers to pay for our career services. Subscribe to Job Portal via the following channels: <a href="index.html#subscription">email</a>, <a href="https://www.facebook.com/myjobmag" >Facebook</a>, <a href="https://twitter.com/myjobmag" >Twitter</a>, <a href="https://www.linkedin.com/company/myjobmag-com/" target="_blank">Linkedin</a> and you can check out the latest trending <a href="hot-nigerian-jobs.html">hot nigerian jobs</a> today</p>
                         <h2>Leading Job Site in Nigeria</h2>
                         <p>As the leading job website in Nigeria, Job Portal is much more than just a job listing platform. We offer various articles, tip, resource and tools for both job seekers and employers.</p>
                     </div>
@@ -701,7 +714,7 @@
                 <a href="#" >Contact Us</a>
                 <a href="#" >Privacy Policy</a>
                 <a href="#" >Terms of Use</a>
-                <a id="footer-email" href="mailto:services@myjobportal.com">Email: <b>services@myjobmag.com</b></a>
+                <a id="footer-email" href="mailto:services@myjobportal.com">Email: <b>services@myjobportal.com</b></a>
                 <span class="copy-rit">Copyright © 2022 <a style="border-right-style:none" href="#">Job Portal</a></span>
             </div>
         </div>
@@ -710,11 +723,28 @@
 </template>
 
 <script>
+import axios from 'axios'
+
   export default {
+      data(){
+          return {
+            email: '',
+          }
+      },
     methods: {
       close() {
         this.$emit('close');
       },
+        activeSubscribe(email){
+            axios.post('https://job-portal-ccf02-default-rtdb.firebaseio.com/posts.json', email)
+            .then(result => 
+                alert('Email submitted successfully'),
+                this.email = null
+                
+            )
+            .catch(e => console.log(e))
+            console.log(this.email)
+        }
     },
   };
 </script>
