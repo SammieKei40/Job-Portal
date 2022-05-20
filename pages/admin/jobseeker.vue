@@ -70,8 +70,6 @@
 </template>
 
 <script>
-
-
 export default {
 data: () => ({
     name: "",
@@ -81,28 +79,21 @@ data: () => ({
   }),
   methods: {
     async createUser() {
-      firebase
-        .auth()
-        .createUserWithEmailAndPassword(this.user.email, this.user.password)
-      const actionCodeSettings = {
-        url: 'https://www.naviclearn.com/evolveI',
-        handleCodeInApp: true
+      console.log("strted")
+      try {
+        await this.$fire.auth.createUserWithEmailAndPassword(
+          this.email,
+          this.password
+        )
+          this.$router.push('aftersignup')
+      } catch (e) {
+        handleError(e)
       }
-      firebase.auth().currentUser.sendEmailVerification(actionCodeSettings)
-        .then(data => {
-          alert('User successfully created!')
-          console.log(data)
-          this.$router.push({ name: 'evolveGo' })
-        })
-        .catch(error => {
-          this.error = error.message
-        })
     },
     isEmailValid: function() {
       return (this.email == "")? "" : (this.reg.test(this.email)) ? 'has-success' : 'has-error';
     }
   }
-
 }
 </script>
 
